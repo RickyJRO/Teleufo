@@ -1,0 +1,110 @@
+.contactos{
+    background-color: rgba(0, 0, 0, 0);
+    font-family:Mark-Book;
+
+  }
+  .headerContactos{
+    font-size: 26px;
+    margin-bottom: -10px;
+    color: rgb(255, 255, 255);
+  }
+  .tituloAboutContactos{
+      padding-top: 50px;
+      font-size: 60px;
+      color:rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 25px;
+     
+    }
+  
+    .columnn {
+      float: left;
+      width: 33.33%;
+     margin-bottom: 30px;
+     text-align: center;
+    }
+    .tituloRedes{
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+    .columnaa{
+    
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .iconscc{
+      margin-bottom: -10px;
+    }
+    .iconContacto{
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+    }
+    .txtcc{
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .logoContacto{
+      margin-bottom: 0px;
+  
+    }
+    .map-frame {
+      width: 100%;
+      height: 200px;
+      position: relative;
+  }
+  .descContacto{
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .roww:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .columnn {
+      padding-left: 0;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .solid {
+      border-top: 3px solid rgb(187, 187, 187);
+      margin-bottom: 10px;
+    }
+  }
+   
+  
+  @media screen and (max-width: 600px) {
+    .columnn {
+      padding-left: 0;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .solid {
+      border-top: 3px solid rgb(187, 187, 187);
+      margin-bottom: 10px;
+    }
+    .tituloAboutContactos{
+      font-size: 39px;
+    }
+    .iconscontacto{
+      margin-bottom: -30px;
+    }
+    .headerContactos{
+      font-size: 24px;
+    }
+    .txtcc{
+      font-size: 18px;
+    }
+    .columnn{
+      margin-bottom: 0px;
+    }
+  }
+  
+    

@@ -1,0 +1,119 @@
+.perks{
+    display: flex;
+    font-family:Mark-Book;
+    padding: 5rem;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.perks__icons{
+    padding: 20px;
+    margin-bottom: -20px;
+    color: rgb(41, 231, 214);
+    font-size: 42px;
+}
+.perks__left{
+    color: #fff;
+    padding: 1rem;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.925);
+    text-align: center;
+}
+.perks__left > h2{
+    font-size: 20px;
+}
+.perks__left > h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+.perks__middle{
+    color: #fff;
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+.perks__middle >h2{
+    font-size: 20px;
+}
+.perks__middle >h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+.perks__right{
+    color: #fff;
+    padding: 1rem;
+    width: 400px;
+    height: 175px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+.perks__right > h2{
+    font-size: 20px;
+}
+.perks__right > h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1560px) {
+    .perks__left{
+        width: 350px;
+    }
+    .perks__middle{
+        width: 350px;
+    }
+    .perks__right{
+        width: 350px;
+        height: 178px;
+    }
+
+}
+
+@media screen and (max-width: 1360px) {
+    .perks__left{
+        width: 250px;
+    }
+    .perks__middle{
+        width: 250px;
+    }
+    .perks__right{
+        width: 250px;
+        height: 180px;
+    }
+    .perks__left > h2{
+        font-size: 16px;
+    }
+    .perks__left > h3{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .perks__middle >h2{
+        font-size: 16px;
+    }
+    .perks__middle >h3{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .perks__right > h2{
+        font-size: 16px;
+    }
+    .perks__right > h3{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 968px) {
+    .perks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+    .perks__left{
+        margin-bottom: 30px;
+    }
+    .perks__middle{
+        margin-bottom: 30px;
+    }
+}

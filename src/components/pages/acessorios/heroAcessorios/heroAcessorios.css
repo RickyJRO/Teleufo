@@ -1,0 +1,89 @@
+.heroacessorios{
+    height: 103vh;
+    overflow: hidden;
+    background-image: url("../../../../assets/reparacoes.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    position: relative;
+}
+.heroacessorios__container{
+    display: flex;
+    padding: 5rem;
+    height: 46vh;
+}
+.heroacessorios__left{
+    text-align: center;
+    flex: 1;
+    padding: 3rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+.heroacessorios__right{
+    flex: 1;
+    justify-content: center;
+
+    
+}
+.heroacessorios__carousel{
+   
+}
+.heroacessorios__img{
+    width: 78%;
+}
+.heroacessorios__left > h2{
+    font-size: 34px;
+    color: #fff;
+    text-align: start;
+}
+.saibamais{
+    margin-top: 25px;
+    background-image: linear-gradient(to right, rgb(41, 231, 214) , rgb(0, 167, 153));
+    color: #fff;
+    border: solid 1px rgba(0, 0, 0, 0.308);
+    border-radius: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1440px) {
+.heroacessorios__img{
+    width: 90%;
+}
+.heroacessorios__left > h2{
+    font-size: 26px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+   .heroacessorios{
+       height: auto;
+   }
+.heroacessorios__container{
+    height: auto;
+    flex-direction: column;
+    padding: 0;
+}
+.heroacessorios__right{
+    text-align: center;
+}
+.heroacessorios__img{
+    width: 40%;
+}
+}
+@media screen and (max-width: 768px) {
+.heroacessorios__right{
+    margin-bottom: 50px;
+}
+}
+@media screen and (max-width: 425px) {
+    .heroacessorios__left > h2{
+        font-size: 18px;
+    }
+    .saibamais{
+        font-size: 16px;
+    }
+    }

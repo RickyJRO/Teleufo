@@ -1,0 +1,115 @@
+.antesdepois__container{
+    display: flex;
+    overflow: hidden;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.antesdepois__left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.antesdepois__left > h1{
+    font-size: 52px;
+    color: rgb(41, 231, 214);
+}
+.antesdepois__right > h1{
+    font-size: 52px;
+    color: rgb(41, 231, 214);
+}
+.antesdepois__right{
+    flex-direction: column;
+    display: flex;
+    margin-left: -300px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.antesdepois__img{
+    
+    border: 3px solid black;
+    box-shadow: rgb(19, 19, 19) 0px 0px 8px;
+    width: 40%;
+}
+.antesdepois__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.antesdepoistopimg__container{
+    height: 700px;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    overflow: hidden;
+    box-shadow: rgb(19, 19, 19) 0px 0px 8px;
+}
+.antesdepoistop__img{
+    width: 100%;
+    margin-top: -300px;
+    opacity: 0.7;
+}
+.antesdepoistop__text{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex: 1;
+    align-self: center;
+    
+    width: 800px;
+    color: #fff;
+    flex-direction: column;
+}
+.antesdepoistop__text > h1{
+    color: rgb(41, 231, 214);
+    font-size: 36px;
+    text-align: center;
+}
+.antesdepoistop__text > h2{
+    font-weight: 300;
+}
+.antesdepois__carousel{
+    display: flex;
+    margin-bottom: 100px;
+    max-width: 500px;
+    box-shadow: rgb(19, 19, 19) 0px 0px 8px;
+}
+.antesdepois__container > h2{
+    color: rgb(41, 231, 214);
+    font-size: 42px;
+}
+.antesdepois__carousel2containerr{
+    margin-bottom: 50px;
+}
+.antesdepois__carousel2container{
+    max-height: 450px;
+}
+@media screen and (max-width: 768px) {
+    .antesdepois__top{
+        padding: 3rem;
+    }
+    .antesdepoistop__text{
+        width: auto;
+    }
+    .antesdepois__carousel2containerr{
+        max-width: 700px;
+    }
+    }
+
+    @media screen and (max-width: 425px) {
+
+        .antesdepois__top{
+            padding: 1rem;
+        }
+        .antesdepoistop__text{
+            margin-top: 50px;
+        }
+        .antesdepoistop__text >h1{
+            font-size: 26px;
+        }
+        .antesdepoistop__text >h2{
+            font-size: 18px;
+        }
+    }

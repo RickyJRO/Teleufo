@@ -1,0 +1,29 @@
+.heroSmartphones__img{
+width: 110%;
+}
+
+@media screen and (max-width: 1440px) {
+.heroSmartphones__img{
+    width: 130%;
+    margin-left: -100px;
+    
+}
+}
+@media screen and (max-width: 1024px) {
+    .heroSmartphones__img{
+        width: 130%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    }
+    @media screen and (max-width: 768px) {
+        .heroSmartphones__img{
+            width: 140%;
+            
+        }
+        }
+    @media screen and (max-width: 425px) {
+        .heroSmartphones__img{
+            width: 100%;
+        }
+        }

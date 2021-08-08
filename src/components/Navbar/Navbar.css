@@ -1,0 +1,114 @@
+.header{
+    z-index: 2;
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+}
+.header__left{
+    flex: 1;
+    padding-left: 3rem;
+}
+.header__right{
+    flex: 2;
+    padding: 15px;
+    justify-content: flex-end;
+}
+.logo__header{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+.header__links{
+    cursor: pointer;
+    font-family:Mark-Book;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 50px;
+    display: flex;
+    color: #fff;
+}
+
+.header__links > h2{
+    padding-left: 60px;
+    background: transparent;
+}
+
+.links{
+    font-family:Mark-Book;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.links:hover{
+    color: rgb(41, 231, 214);
+}
+.icon__container{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon__menu{
+    cursor: pointer;
+    color: #fff;
+    padding: 25px;
+    font-size: 35px;
+}
+  
+.header__active {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    z-index: 4;
+    flex: 1;
+    opacity: 1;
+  }
+  .buttonNo{
+      border: none;
+      background-color: transparent;
+  }
+  .header__close{
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+  }
+  .closeIcon{
+      cursor: pointer;
+    font-size: 34px;
+    color: rgb(41, 231, 214);
+  }
+  .menuLogo{
+      display: flex;
+      justify-content: center;
+  }
+  @media screen and (max-width: 1260px) {
+    .logo__headerr{
+        width: 50%;
+    }
+  }
+  @media screen and (max-width: 960px) {
+      .header__left{
+          display: flex;
+          align-items: center;
+      }
+      .header__right{
+          margin-right: -10px;
+      }
+    .logo__header{
+        width: 100%;
+    }
+    .logo__headerr{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .header__left{
+        padding: 0px;
+    }
+    .header__right{
+        padding: 0px;
+    }
+  
+}

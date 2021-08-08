@@ -1,0 +1,253 @@
+*{
+    outline: none;
+
+}
+.serviços{
+    background-color: rgb(255, 255, 255);
+}
+.service__iphone{
+    height: 716px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+.iphone__left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iphone__right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
+.iphone__right >h1{
+    font-size: 50px;
+}
+.iphone__right > h2{
+    margin-bottom: -15px;
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 38px;
+}
+.iphone__right > h3{
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 22px;
+}
+.service__iphoneIMG{
+    height: 80%;
+}
+.buttonDark{
+    margin-top: 25px;
+    background-image: linear-gradient(to right, rgb(41, 231, 214) , rgb(0, 167, 153));
+    color: #fff;
+    border: solid 1px rgba(0, 0, 0, 0.308);
+    border-radius: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 26px;
+}
+.service{
+    background-color: black;
+}
+.service__phones{
+    height: 716px;
+    
+    display: flex;
+    justify-content: center;
+}
+.phones__left{
+color: #fff;
+flex: 1;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family:Mark-Book;
+justify-content: center;
+padding:1rem;
+}
+.phones__left > h1{
+    font-size: 36px;
+}
+.phones__left > h2{
+    font-size: 33px;
+}
+.phones__right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    align-self: flex-end;
+}
+.service__phoneIMG{
+   width: 65%;
+}
+.service__accessories{
+    display: flex;
+    height: 716px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.accessories__left{
+    display: flex;
+    flex: 1;
+
+}
+.accessories__right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family:Mark-Book;
+    justify-content: center;
+    padding:1rem;  
+}
+.accessories__right >h1{
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+.accessories__right >h2{
+    margin-bottom: 0px;
+    font-size: 33px;
+}
+.accessoriesIMG{
+    width: 100%;
+}
+
+@media screen and (max-width: 1441px) {
+    .service__iphoneIMG{
+        width: 40%;
+        height: 70%;
+    }
+    .accessoriesIMG{
+        width: 110%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .service__iphone{
+        flex-direction: column;
+        height: auto;
+    }
+    .iphone__left{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .iphone__right{
+        margin-bottom: 50px;
+    }
+    .iphone__right >h1{
+        font-size: 35px;
+    }
+    .iphone__right > h2{
+        margin-bottom: -15px;
+        color: rgba(0, 0, 0, 0.918);
+        font-size: 28px;
+    }
+    .iphone__right > h3{
+        color: rgba(0, 0, 0, 0.767);
+        font-size: 19px;
+    }
+    .service__iphoneIMG{
+        width: 40%;
+        height: auto;
+    }
+    .service__phones{
+        height: auto;
+        flex-direction: column;
+    }
+    .phones__left{
+        padding: 1rem;
+        margin-top: 25px;
+    }
+    .phones__right{
+        display: flex;
+        justify-content: center;
+    }
+    .service__phoneIMG{
+        margin-top: 50px;
+        width: 80%;
+    }
+    .phones__left > h1{
+        font-size: 26px;
+    }
+    .phones__left > h2{
+        font-size: 28px;
+    }
+    .phones__left > h3{
+        font-size: 19px;
+    }
+    .service__accessories{
+        height: auto;
+        flex-direction: column;
+    }
+    .accessories__right{
+        padding: 1rem;
+    }
+    
+    .accessoriesIMG{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .service__iphoneIMG{
+        width: 45%;
+    }
+    .service__phoneIMG{
+        width: 75%;
+    }
+    .buttonDark{
+        font-size: 16px;
+    }
+    .iphone__right{
+        padding: 1rem;
+    }
+    .iphone__right >h1{
+        font-size: 28px;
+    }
+    .iphone__right > h2{
+        font-size: 24px;
+    }
+    .iphone__right > h3{
+        font-size: 16px;
+    }
+    .service__phones{
+        padding: 1rem;
+    }
+    .phones__left > h1{
+        font-size: 24px;
+    }
+    .phones__left > h2{
+        font-size: 22px;
+    }
+    .phones__left > h3{
+        font-size: 16px;
+    }
+    .phones__right{
+        flex: 1;
+        display: flex;
+        margin-bottom: -16px;
+    }
+    .service__accessories{
+        padding: 1rem;
+    }
+    .accessories__right >h1{
+        font-size: 28px;
+    }
+    .accessories__right > h3{
+        font-size: 16px;
+    }
+    .accessories__right >h2{
+        font-size: 24px;
+    }
+}

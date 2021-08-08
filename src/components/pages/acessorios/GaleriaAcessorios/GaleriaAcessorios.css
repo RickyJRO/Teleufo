@@ -1,0 +1,32 @@
+.galeria__container{
+    display: flex;
+    padding: 4rem;
+  
+}
+.galeria__slide{
+    flex: 1;
+    width: 100%;
+   padding: 5px;
+}
+.galeria__img{
+    width: 95%;
+    height: 500px;
+}
+@media screen and (max-width: 1440px) {
+.galeria__img{
+    height: 320px;
+}
+}
+@media screen and (max-width: 1024px) {
+.galeria__img{
+    height: 300px;
+}
+}
+@media screen and (max-width: 425px) {
+.galeria__container{
+    flex-direction: column;
+}
+.galeria__img{
+    height: 220px;
+}
+}
